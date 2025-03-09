@@ -15,7 +15,7 @@
 - 添加 超级HDR （酷安 Decorat）
 
 ## v1.0.14.0
-- 更新 `marble.xml`更新至HyperOS 1.0.14.0.UMRCNXM
+- 更新 `marble.xml`同步HyperOS 1.0.14.0.UMRCNXM更改
 - 更改 `marble.xml`中添加代码的位置至底部
 - 删除 快充加速
 - 添加 自动降低屏幕亮度开关 （酷安 茶柚君）
