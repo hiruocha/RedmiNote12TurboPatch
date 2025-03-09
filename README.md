@@ -2,7 +2,7 @@
 补全大部分阉割内容，还你旗舰体验！
 > 通过修改 `marble.xml` （基于当前最新系统版本）及 `system.prop` 来补全系统阉割
 
-> 代码来源为酷安动态和评论区收集，详细贡献者名单见结尾及更新日志
+> 代码来源为酷安动态和评论区收集，详细贡献者名单见结尾及[更新日志](https://github.com/hiruocha/RedmiNote12TurboPatch/blob/main/CHANGELOG.md)
 ## 模块补全列表
 - 高级材质开关 `设置 > 显示与亮度`
 - 倍速进游戏

@@ -40,8 +40,8 @@
     <integer name="cpu_max_freq">291</integer>
     <!-- whether support ai task button -->
     <bool name="support_ai_task">false</bool>
-    <!-- whether support truetone -->
-    <bool name="support_truetone">false</bool>
+    <!-- whether support truetone (Redmi Note 12 Turbo Patch) -->
+    <bool name="support_truetone">true</bool>
     <!-- whether support Macro Keyboard -->
     <bool name="support_mi_game_macro">true</bool>
     <!--whether the device supports record param-->
