@@ -1,7 +1,7 @@
 id=RedmiNote12TurboPatch
-name=Redmi Note 12 Turbo 功能补全
-version=1.0.18.1
-versionCode=10001801
+name=Redmi Note 12 Turbo 增强
+version=2.0
+versionCode=20000000
 author=昼お茶
 description=补全大部分被阉割的功能，还你旗舰体验！
 updateJson=https://github.com/hiruocha/RedmiNote12TurboPatch/raw/main/update.json

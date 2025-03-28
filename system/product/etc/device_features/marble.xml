@@ -236,8 +236,6 @@
 <!-- Performance END -->
 
 <!-- Telephony BEGIN -->
-    <!--whether the device supports voip record -->
-    <bool name="support_voip_record">true</bool>
     <bool name="support_new_silentmode">true</bool>
 <!-- Telephony END -->
 
@@ -258,6 +256,10 @@
     <bool name="support_24bit_record">true</bool>
     <!--whether the device supports dolby-->
     <bool name="support_dolby">false</bool>
+    <!--whether the device supports voip record -->
+    <bool name="support_voip_record">true</bool>
+    <!--whether the device supports conversation_tool_box voip record -->
+    <bool name="support_conversation_toolbox_voiprecord">true</bool>
 <!-- Audio END -->
 
 <!-- Bluethooth BEGIN -->
@@ -785,11 +787,11 @@
         <item>expdb</item>
     </string-array>
     <string name="partition_name_path">/dev/block/by-name/</string>
-
+    
     <!--  MIUI ADD: PKMS_ParentalControl  -->
     <bool name="support_parental_control">true</bool>
     <!-- END PKMS_ParentalControl -->
-    
+
 <!-- Redmi Note 12 Turbo Patch BEGIN -->
     <!-- whether support display smart-fps in video toolbox -->
     <bool name="support_video_dfps">true</bool>
