@@ -806,6 +806,8 @@
     <integer name="default_display_color_mode">3</integer>
     <!-- Whether support smart eyecare -->
     <bool name="support_smart_eyecare">true</bool>
+    <bool name="support_aod_fullscreen">true</bool>
+    <bool name="support_hdr_enhance">true</bool>
 <!-- Redmi Note 12 Turbo Patch END -->
 </features>
 <!-- END Adapt_MIUIAdaptFrame-->
