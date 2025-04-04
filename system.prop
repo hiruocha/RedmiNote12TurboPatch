@@ -16,3 +16,7 @@ debug.config.media.video.aie.support=true
 ro.vendor.audio.game.effect=true
 #超清HDR
 persist.sys.support_ultra_hdr=true
+#关闭应用预加载
+persist.sys.prestart.proc=false
+#开启dm映射器
+persist.miui.extm.dm_opt.enable=true

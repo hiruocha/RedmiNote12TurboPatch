@@ -1,9 +1,12 @@
 # Redmi Note 12 Turbo 增强模块
-补全大部分阉割内容，还你旗舰体验！
-> 通过修改 `marble.xml` （基于当前最新系统版本）及 `system.prop` 来补全系统阉割
-
-> 代码来源为酷安动态和评论区收集，详细贡献者名单见结尾及[更新日志](https://github.com/hiruocha/RedmiNote12TurboPatch/blob/main/CHANGELOG.md)
-## 模块补全列表
+增强系统功能，还你旗舰体验！
+> 代码来源为酷安和GitHub等各处收集，贡献者名单见[鸣谢](#鸣谢)及[更新日志](https://github.com/hiruocha/RedmiNote12TurboPatch/blob/main/CHANGELOG.md)
+## 模块补全&增强列表
+### 系统
+- 去除国行GMS限制
+- 禁用应用预加载
+- 开启dm映射器
+- zram 1:1白名单
 ### 显示
 - 双线程动画
 - 超级HDR
@@ -30,12 +33,13 @@
 ### 特殊
 - 狂暴模式开关（**仅UI，无实际功能**）（各位机主的怨念了属于是） `设置 > 省电与电池 > 当前模式`&`游戏工具箱（游戏应用内展开侧滑栏进入）`
 ## 注意事项
-- 仅支持搭载官方国行版MIUI（未经测试）/HyperOS的Redmi Note 12 Turbo/POCO F5 (marble)
+- 仅支持搭载官方国行版MIUI/HyperOS的Redmi Note 12 Turbo/POCO F5 (marble)
 - **（重要！）此模块可能会导致系统损坏、变砖或其他不可预测的风险，刷入前请保证自己有基本的玩机基础知识及救砖能力，本人不对无脑刷入此模块导致的一切后果负责**
 ## 鸣谢
 （以下排名不分先后）
 
-酷安用户名：什么都不会的小白菜、閃電Flashh、钓鱼竿钓大鱼、茶柚君、MT启明星、Decorat、不会起名的Nao、周逸睎
+酷安用户名：什么都不会的小白菜、閃電Flashh、钓鱼竿钓大鱼、茶柚君、MT启明星、Decorat、不会起名的Nao、周逸睎  
+[unlock-cn-gms](https://github.com/fei-ke/unlock-cn-gms)
 ## 注：
 - 某些代码片段可能未标注或错误标注发现者/未经过发现者授权，如您是相关代码的发现者，并且希望我在鸣谢及代码来源部分添加或修正您的名字/删除相关代码的话请提交issue或以酷安私信等其他方式告知，感谢（当然如果不希望我标注您的名字的话也可以告知我）
 - 如果有希望添加到该模块的补全或增强也欢迎提issue或pr补充
