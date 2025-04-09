@@ -4,6 +4,10 @@
 - 仅支持搭载官方国行版MIUI（未经测试）/HyperOS的Redmi Note 12 Turbo/POCO F5 (marble)
 - **（重要！）此模块可能会导致系统损坏、变砖或其他不可预测的风险，刷入前请保证自己有基本的玩机基础知识及救砖能力，本人不对无脑刷入此模块导致的一切后果负责**
 
+## v2.1.1
+- 更改 模块描述
+- 删除 防闪烁模式（无效）
+
 ## v2.1
 - 添加 去除国行GMS限制 （[unlock-cn-gms](https://github.com/fei-ke/unlock-cn-gms)）
 - 添加 关闭预加载
@@ -16,7 +20,7 @@
 
 ## v2.0
 - 更改 更名为**Redmi Note 12 Turbo 增强**
-- 更新 `marble.xml`同步官方HyperOS 2.0.5.0.VMRCNXM更改
+- 更新 `marble.xml`同步HyperOS 2.0.5.0.VMRCNXM
 - 更改 版本号格式，取消与官方版本号关联
 
 ## v1.0.18.1
@@ -34,9 +38,9 @@
 - 添加 超级HDR （酷安 @Decorat）
 
 ## v1.0.14.0
-- 更新 `marble.xml`同步官方HyperOS 1.0.14.0.UMRCNXM更改
+- 更新 `marble.xml`同步HyperOS 1.0.14.0.UMRCNXM
 - 更改 `marble.xml`中新增代码的位置至文件底部
-- 删除 快充加速
+- 删除 快充加速（无效）
 - 添加 自动降低屏幕亮度开关 （酷安 @茶柚君）
 - 添加 专业原色开关 （酷安 @MT启明星）
 
@@ -48,6 +52,7 @@
 - 添加 防闪烁模式 （酷安 @茶柚君）
 
 ## v1.0.9.0.UMRCNXM
+- 第一个版本
 - `marble.xml`基于HyperOS 1.0.9.0.UMRCNXM
 - 添加 高级材质开关
 - 添加 倍速进游戏

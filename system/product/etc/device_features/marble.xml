@@ -406,8 +406,8 @@
     <bool name="support_autobrightness_optimize">true</bool>
     <!-- whether support_screen_on_delayed -->
     <bool name="support_screen_on_delayed">true</bool>
-    <!-- whether support dc backlight (Redmi Note 12 Turbo Patch) -->
-    <bool name="support_dc_backlight">true</bool>
+    <!-- whether support dc backlight -->
+    <bool name="support_dc_backlight">false</bool>
     <!-- whether support low_flicker backlight -->
     <bool name="support_low_flicker_backlight">false</bool>
     <!-- whether show low flicker in display menu -->
@@ -793,18 +793,12 @@
     <!-- END PKMS_ParentalControl -->
 
 <!-- Redmi Note 12 Turbo Patch BEGIN -->
-    <!-- whether support display smart-fps in video toolbox -->
     <bool name="support_video_dfps">true</bool>
-    <!-- Whether support WildBoost -->
     <bool name="support_wild_boost">true</bool>
-    <!-- Whether support WildBoost in Battery&Performance -->
     <bool name="support_wild_boost_bat_perf">true</bool>
-    <!-- default rhythmic eyecare mode -->
     <integer name="default_eyecare_mode">2</integer>
     <bool name="support_game_dim">true</bool>
-    <!-- Configuretion for default color mode -->
     <integer name="default_display_color_mode">3</integer>
-    <!-- Whether support smart eyecare -->
     <bool name="support_smart_eyecare">true</bool>
     <bool name="support_aod_fullscreen">true</bool>
     <bool name="support_hdr_enhance">true</bool>

@@ -21,7 +21,7 @@ jobs:
           TAG_NAME="${GITHUB_REF#refs/tags/}"
           MODULE_ID="RedmiNote12TurboPatch"
           ZIP_FILENAME="${MODULE_ID}_${TAG_NAME}.zip"
-          UPDATE_JSON_PATH="Update.json"
+          UPDATE_JSON_PATH="update.json"
           CHANGELOG_PATH="CHANGELOG.md"
           MODULE_PROP_PATH="module.prop"
           REPO_OWNER="${{ github.repository_owner }}"
@@ -69,7 +69,7 @@ jobs:
 
           echo "将要打包的文件:"
           ls -A
-          zip -r9 ../${{ steps.vars.outputs.ZIP_FILENAME }} . -x ".git*" ".github*" "README.md" "CHANGELOG.md" "update.json"
+          zip -r9 ${{ steps.vars.outputs.ZIP_FILENAME }} . -x ".git*" ".github*" "README.md" "CHANGELOG.md" "update.json"
 
           echo "打包完成: ${{ steps.vars.outputs.ZIP_FILENAME }}"
 
@@ -85,7 +85,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: 更新并提交 Update.json
+      - name: 更新并提交 update.json
         run: |
           echo "准备更新 ${{ steps.vars.outputs.UPDATE_JSON_PATH }}..."
 
@@ -133,12 +133,12 @@ jobs:
           git add ${{ steps.vars.outputs.UPDATE_JSON_PATH }}
 
           if git diff --staged --quiet; then
-            echo "Update.json 没有变化，无需提交。"
+            echo "update.json 没有变化，无需提交。"
           else
             git commit -m "更新 ${{ steps.vars.outputs.TAG_NAME }} update.json"
 
             git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ steps.vars.outputs.REPO_OWNER }}/${{ steps.vars.outputs.REPO_NAME }}.git HEAD:${{ steps.vars.outputs.DEFAULT_BRANCH }}
-            echo "Update.json 已成功提交并推送到 ${{ steps.vars.outputs.DEFAULT_BRANCH }} 分支。"
+            echo "update.json 已成功提交并推送到 ${{ steps.vars.outputs.DEFAULT_BRANCH }} 分支。"
           fi
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
