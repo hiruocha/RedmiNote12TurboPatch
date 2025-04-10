@@ -1,4 +1,4 @@
-name: 构建并发布 Magisk 模块
+name: 打包并发布
 
 on:
   push:
@@ -67,8 +67,6 @@ jobs:
             fi
           fi
 
-          echo "将要打包的文件:"
-          ls -A
           zip -r9 ${{ steps.vars.outputs.ZIP_FILENAME }} . -x ".git*" ".github*" "README.md" "CHANGELOG.md" "update.json"
 
           echo "打包完成: ${{ steps.vars.outputs.ZIP_FILENAME }}"

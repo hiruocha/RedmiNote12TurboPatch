@@ -40,7 +40,7 @@
     <integer name="cpu_max_freq">291</integer>
     <!-- whether support ai task button -->
     <bool name="support_ai_task">false</bool>
-    <!-- whether support truetone (Redmi Note 12 Turbo Patch) -->
+    <!-- whether support truetone (RedmiNote12TurboPatch原色模式选项) -->
     <bool name="support_truetone">true</bool>
     <!-- whether support Macro Keyboard -->
     <bool name="support_mi_game_macro">true</bool>
@@ -97,7 +97,7 @@
     <bool name="support_smart_fps">true</bool>
     <!-- smart fps value-->
     <integer name="smart_fps_value">120</integer>
-    <!-- (Redmi Note 12 Turbo Patch) -->
+    <!-- (RedmiNote12TurboPatch屏幕刷新率 90 Hz 选项) -->
     <integer-array name="fpsList">
         <item>120</item>
         <item>90</item>
@@ -141,7 +141,7 @@
     <bool name="support_gesture_wakeup">true</bool>
     <!-- whether support keycode_goto_dismiss -->
     <bool name="aod_support_keycode_goto_dismiss">true</bool>
-    <!-- whether only support keycode goto (Redmi Note 12 Turbo Patch) -->
+    <!-- whether only support keycode goto (RedmiNote12TurboPatch息屏显示模式始终显示和定时显示选项) -->
     <bool name="is_only_support_keycode_goto">false</bool>
     <!--whether the device supports screen paper mode-->
     <bool name="support_screen_paper_mode">true</bool>
@@ -288,9 +288,9 @@
 <!-- Bluethooth END -->
 
 <!-- Display BEGIN -->
-    <!-- device support screen enhance engine (Redmi Note 12 Turbo Patch) -->
+    <!-- device support screen enhance engine (RedmiNote12TurboPatchAI大师画质引擎入口) -->
     <bool name="support_screen_enhance_engine">true</bool>
-    <!-- whether support AI Display (Redmi Note 12 Turbo Patch) -->
+    <!-- whether support AI Display (RedmiNote12TurboPatchAI智能场景优化开关) -->
     <bool name="support_AI_display">true</bool>
     <!-- whether support paper eyecare-->
     <bool name="support_paper_eyecare">true</bool>
@@ -345,7 +345,7 @@
     </integer-array>
     <!-- whether support low brightness FOD -->
     <bool name="support_low_brightness_fod">false</bool>
-    <!-- whether support true color (Redmi Note 12 Turbo Patch) -->
+    <!-- whether support true color (RedmiNote12TurboPatch真彩显示开关) -->
     <bool name="support_true_color">true</bool>
     <!-- whether support 12bit backlight -->
     <bool name="support_12bit_backlight">true</bool>
@@ -792,17 +792,25 @@
     <bool name="support_parental_control">true</bool>
     <!-- END PKMS_ParentalControl -->
 
-<!-- Redmi Note 12 Turbo Patch BEGIN -->
+<!-- RedmiNote12TurboPatch BEGIN -->
+    <!-- 智能刷新率开关 -->
     <bool name="support_video_dfps">true</bool>
+    <!-- 狂暴引擎 -->
     <bool name="support_wild_boost">true</bool>
     <bool name="support_wild_boost_bat_perf">true</bool>
+    <!-- 节律护眼选项 -->
     <integer name="default_eyecare_mode">2</integer>
+    <!-- 自动降低屏幕亮度开关 -->
     <bool name="support_game_dim">true</bool>
+    <!-- 专业原色开关 -->
     <integer name="default_display_color_mode">3</integer>
+    <!-- 自动调节色温开关 -->
     <bool name="support_smart_eyecare">true</bool>
+    <!-- 息屏样式和锁屏样式一致选项 -->
     <bool name="support_aod_fullscreen">true</bool>
+    <!-- 相册超动态显示开关 -->
     <bool name="support_hdr_enhance">true</bool>
-<!-- Redmi Note 12 Turbo Patch END -->
+<!-- RedmiNote12TurboPatch END -->
 </features>
 <!-- END Adapt_MIUIAdaptFrame-->
 

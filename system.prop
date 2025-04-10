@@ -1,4 +1,4 @@
-#高级材质
+#高级材质开关
 persist.sys.background_blur_supported=true
 persist.sys.background_blur_status_default=false
 #双线程动画
@@ -6,17 +6,20 @@ persist.sys.miui_animator_sched.sched_threads=2
 #倍速进游戏
 debug.game.video.support=true
 debug.game.video.speed=true
-#动态画面补偿
+#动态画面补偿开关
 debug.config.media.video.frc.support=true
-#超分辨率增强
+#超分辨率增强开关
 debug.config.media.video.ais.support=true
-#影像轮廓增强
+#影像轮廓增强开关
 debug.config.media.video.aie.support=true
-#游戏音质优化
+#游戏音质优化开关
 ro.vendor.audio.game.effect=true
-#超清HDR
+#超级HDR
 persist.sys.support_ultra_hdr=true
-#关闭应用预加载
+#禁用应用预加载
 persist.sys.prestart.proc=false
-#开启dm映射器
+#开启dm映射
 persist.miui.extm.dm_opt.enable=true
+#息屏 1 Hz 刷新率
+ro.vendor.display.primary_idle_refresh_rate=60,1:10
+ro.vendor.mi_sf.aod_mode_ddic_refresh_rate=1
