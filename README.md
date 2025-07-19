@@ -1,6 +1,6 @@
 # Redmi Note 12 Turbo 增强模块
 增强系统功能，还你旗舰体验！
-> 代码来源为酷安和GitHub等各处收集，贡献者名单见[鸣谢](#鸣谢)及[更新日志](https://github.com/hiruocha/RedmiNote12TurboPatch/blob/main/CHANGELOG.md)
+> 代码来源为酷安和GitHub等各处收集，贡献者名单见[鸣谢](#鸣谢)及[更新日志](CHANGELOG.md)
 ## 模块补全&增强列表
 ### 系统
 - 去除国行GMS限制
@@ -43,3 +43,6 @@
 ## 注：
 - 如果有希望添加到该模块的补全或增强也欢迎提issue或pr补充
 - 如果本模块有帮助到您，劳烦点个star，感谢！
+
+## LICENSE
+[MIT](LICENSE)
